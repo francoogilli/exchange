@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
     <h1 className="text-3xl font-bold text-center text-blue-500">Hello</h1>
-    <div className="lg:grid text-white grid-cols-2 gap-3 space-y-2 sm:space-y-0 p-2 lg:grid-cols-12 md:grid-cols-3 pb-14">
+    <div className="lg:grid text-white grid-cols-2 gap-3 space-y-2 sm:space-y-0 p-2 lg:grid-cols-12 md:grid-cols-3 pt-20 pb-14">
     
     <div className="border-2 col-span-5 p-6  bg-[#151823] border-zinc-800 rounded-2xl ">
       <div className="flex pb-2 justify-between">
