@@ -22,7 +22,7 @@ export default function Home() {
         <p className="text-xl text-teal-400 font-medium">Obtienes</p>
         <div className="flex justify-between p-2 items-center bg-[#151823] border border-zinc-800 rounded-2xl   ">
           <input type="number" name="" id="" placeholder="0" className="appearance-none focus:outline-none bg-[#151823] text-lg w-3/4" />
-          <select name="" id="" className="focus:outline-none p-2 rounded-[0.5rem] bg-[#1a1d29]  text-base w-1/4">
+          <select name="" id="" className="focus:outline-none font-medium p-2 rounded-[0.5rem] bg-[#1a1d29]  text-base w-1/4">
             <option value="">ARS</option>
             <option value="">USD</option>
             <option value="">BTC</option>
@@ -34,7 +34,7 @@ export default function Home() {
         <p className="text-xl text-teal-400 font-medium">Pagas</p>
         <div className="flex justify-between p-2 items-center bg-[#151823] border border-zinc-800 rounded-2xl   ">
           <input type="number" name="" id="" placeholder="0" className="appearance-none focus:outline-none bg-[#151823] text-lg w-3/4" />
-          <select name="" id="" className="focus:outline-none p-2 rounded-[0.5rem] bg-[#1a1d29]  text-base w-1/4">
+          <select name="" id="" className="focus:outline-none font-medium p-2 rounded-[0.5rem] bg-[#1a1d29]  text-base w-1/4">
             <option value="">ARS</option>
             <option value="">USD</option>
             <option value="">BTC</option>
