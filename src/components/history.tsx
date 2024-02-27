@@ -34,8 +34,8 @@ export default function History() {
                   index % 2 === 0 ? "bg-[#171822]" : "bg-[#171822]"
                 } dark:border-gray-700`}
               >
-                <td className="px-6 py-4 flex items-center">
-                  <Image src={item.icon} className="mr-2" width={24} height={24} alt=""/>
+                <td className="px-6 py-4 flex items-center ">
+                  <Image src={item.icon} className="mr-2 hover:scale-110 transition-transform duration-500" width={24} height={24} alt=""/>
                   <span className="font-normal">{item.currency}</span>
                 </td>
                 <td className="px-6 py-4">{item.price}</td>
