@@ -14,13 +14,13 @@ export default function Home() {
     
     <History/>
     
-    <div className="border-2 bg-[#121212] col-span-4 border-zinc-800 rounded-2xl ">
+    <div className=" bg-[#121212] col-span-4 rounded-2xl ">
       <h2 className="text-3xl font-medium text-center p-10">Composicion</h2>
     </div>
-    <div className="border-2 font-medium bg-[#121212] col-span-4 border-zinc-800 rounded-2xl ">
+    <div className=" font-medium bg-[#121212] col-span-4 rounded-2xl ">
     <h2 className="text-3xl text-center p-10">Estado Actual</h2>
     </div>
-    <div className="border-2 font-medium bg-[#121212] col-span-4 border-zinc-800 rounded-2xl ">
+    <div className=" font-medium bg-[#121212] col-span-4 rounded-2xl ">
       <h2 className="text-3xl text-center p-10">Ver precios</h2>
     </div>
 

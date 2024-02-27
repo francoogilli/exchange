@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 
 export default function History() {
   return (
-    <div className="border-2 bg-[#121212] col-span-8 border-zinc-800 rounded-2xl">
+    <div className=" bg-[#121212] col-span-8  rounded-2xl">
       <div className="relative pt-4 rounded-[14px] overflow-x-auto">
       <span className="absolute left-0 right-0 bottom-0 h-[400px] sm:h-[190px] bg-gradient-to-b from-[#180e0e]/5 via-[#180e0e]/80 to-[#120b0b]/95 ">
         

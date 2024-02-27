@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function BuySell() {
   const [selectedOption, setSelectedOption] = useState('buy');
     return (
-        <div className="border-2 col-span-4 p-6  bg-[#121212] border-zinc-800 rounded-2xl ">
+        <div className=" col-span-4 p-6  bg-[#121212]  rounded-2xl ">
       <div className="flex pb-5 justify-center gap-x-20">
       <p className={`text-2xl font-medium cursor-pointer ${selectedOption === 'buy' ? 'text-blue-600' : 'text-gray-500'}`} onClick={() => setSelectedOption('buy')}>Buy</p>
       <p className={`text-2xl font-medium cursor-pointer ${selectedOption === 'sell' ? 'text-blue-600' : 'text-gray-500'}`} onClick={() => setSelectedOption('sell')}>Sell</p>
