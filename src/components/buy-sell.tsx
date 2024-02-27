@@ -1,13 +1,18 @@
 import { Icon } from "@iconify/react";
-
+import { useState } from "react";
 export default function BuySell() {
+  const [selectedOption, setSelectedOption] = useState('buy');
     return (
         <div className="border-2 col-span-4 p-6  bg-[#151823] border-zinc-800 rounded-2xl ">
-      <div className="flex pb-2 justify-between">
-        <h2 className="text-2xl text-zinc-200 font-normal">Exchange</h2>
-        <Icon icon="uil:exchange-alt" className="text-green-400 text-3xl"/>
+      <div className="flex pb-5 justify-center gap-x-20">
+      <p className={`text-2xl font-medium cursor-pointer ${selectedOption === 'buy' ? 'text-blue-600' : 'text-gray-500'}`} onClick={() => setSelectedOption('buy')}>Buy</p>
+      <p className={`text-2xl font-medium cursor-pointer ${selectedOption === 'sell' ? 'text-blue-600' : 'text-gray-500'}`} onClick={() => setSelectedOption('sell')}>Sell</p>
       </div>
-      <div className="flex pb-6 justify-between">
+      <div className="flex justify-between">
+        <div className={`h-[2px] w-full ${selectedOption === 'buy' ? 'bg-blue-600' : 'bg-gray-500'}`}></div>
+        <div className={`h-[2px] w-full ${selectedOption === 'sell' ? 'bg-blue-600' : 'bg-gray-500'}`}></div>
+      </div>
+      <div className="flex py-6 justify-between">
         <p className="text-2xl font-medium">1 <span className="text-teal-400">BTC</span></p>
         <Icon icon="pajamas:arrow-right" className="text-[#A6A9B3] text-3xl"/>
         <p className="text-2xl font-medium">51,740 <span className="text-teal-400">USD</span></p>
