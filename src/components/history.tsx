@@ -41,7 +41,7 @@ export default function History() {
                 <td className="px-6 py-4">{item.price}</td>
                 <td className="px-6 py-4">{item.amount}</td>
                 <td className={`px-6 py-4 font-normal`}>
-                  <span className={`px-4 py-1 rounded-lg font-normal ${item.action === 'Sell' ? 'bg-emerald-500/20 text-emerald-500' : 'bg-red-500/20 text-red-500'}`}>{item.action}</span>
+                  <span className={`px-4 py-1 rounded-lg font-normal ${item.action === 'Sell' ? 'bg-emerald-500/20 hover:bg-emerald-500/25 hover:text-emerald-400 text-emerald-500 transition duration-300' : 'bg-red-500/20 hover:bg-red-500/25 hover:text-red-400 text-red-500 transition duration-300'}`}>{item.action}</span>
                 </td>
                 <td className="px-6 py-4">{item.date}</td>
               </tr>
