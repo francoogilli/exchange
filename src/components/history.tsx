@@ -7,7 +7,7 @@ export default function History() {
   return (
     <div className="border-2 bg-[#151A25] col-span-8 border-zinc-800 rounded-2xl">
       <div className="relative pt-4 rounded-[14px] overflow-x-auto">
-      <span className="absolute left-0 right-0 bottom-0 h-[400px] sm:h-[190px] bg-gradient-to-b from-[#0e1118]/5 via-[#0e1118]/80 to-[#0e1118]/95 ">
+      <span className="absolute left-0 right-0 bottom-0 h-[400px] sm:h-[190px] bg-gradient-to-b from-[#0e1118]/5 via-[#0e1118]/80 to-[#0b0d12]/95 ">
         
       </span>
         <table className="w-full  text-sm  text-left rtl:text-right text-zinc-200">
