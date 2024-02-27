@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import '@fontsource-variable/jost';
 import Container from "src/components/container";
+import Header from "src/components/header";
 import "./globals.css";
 
 
@@ -17,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-black">
+          <Header />
         <Container>
           {children}
         </Container>
