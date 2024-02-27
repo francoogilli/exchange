@@ -6,8 +6,8 @@ export default function History() {
   return (
     <div className="border-2 bg-[#151A25] col-span-8 border-zinc-800 rounded-2xl">
       <div className="relative pt-4 rounded-[14px] overflow-x-auto">
-        <table className="w-full text-sm  text-left rtl:text-right text-zinc-200">
-          <thead className="text-sm text-[#666873] bg-[#181A25]">
+        <table className="w-full  text-sm  text-left rtl:text-right text-zinc-200">
+          <thead className="text-sm  text-[#666873] bg-[#181A25]">
             <tr className="">
               <th scope="col" className="px-6 font-semibold py-3">
                 Currency
@@ -35,7 +35,7 @@ export default function History() {
                 } dark:border-gray-700`}
               >
                 <td className="px-6 py-4 flex items-center ">
-                  <Image src={item.icon} className="mr-2 hover:scale-110 transition-transform duration-500" width={24} height={24} alt=""/>
+                  <Image src={item.icon} className="mr-3 hover:scale-125 transition-transform duration-500" width={25} height={25} alt=""/>
                   <span className="font-normal">{item.currency}</span>
                 </td>
                 <td className="px-6 py-4">{item.price}</td>
