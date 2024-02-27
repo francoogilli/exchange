@@ -30,7 +30,7 @@ export default function History() {
             {historyData.map((item, index) => (
               <tr
                 key={index}
-                className={`border-bs ${
+                className={`border-bs hover:bg-[#1c1d29] ${
                   index % 2 === 0 ? "bg-[#171822]" : "bg-[#171822]"
                 } dark:border-gray-700`}
               >
