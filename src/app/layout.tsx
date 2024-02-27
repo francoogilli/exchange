@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import '@fontsource-variable/jost';
 import Container from "src/components/container";
 import Header from "src/components/header";
+import Footer from "src/components/footer";
 import "./globals.css";
 
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <Container>
           {children}
         </Container>
+        <Footer />
       </body>
     </html>
   );
