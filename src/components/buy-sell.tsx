@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function BuySell() {
   const [selectedOption, setSelectedOption] = useState('buy');
     return (
-        <div className="border-2 col-span-4 p-6  bg-[#151823] border-zinc-800 rounded-2xl ">
+        <div className="border-2 col-span-4 p-6  bg-[#121212] border-zinc-800 rounded-2xl ">
       <div className="flex pb-5 justify-center gap-x-20">
       <p className={`text-2xl font-medium cursor-pointer ${selectedOption === 'buy' ? 'text-blue-600' : 'text-gray-500'}`} onClick={() => setSelectedOption('buy')}>Buy</p>
       <p className={`text-2xl font-medium cursor-pointer ${selectedOption === 'sell' ? 'text-blue-600' : 'text-gray-500'}`} onClick={() => setSelectedOption('sell')}>Sell</p>
@@ -20,9 +20,9 @@ export default function BuySell() {
 
       <div className="pb-2">
         <p className="text-xl text-teal-400 font-medium">Pagas</p>
-        <div className="flex justify-between p-2 items-center bg-[#151823] border border-zinc-800 rounded-2xl   ">
-          <input type="number" name="" id="" placeholder="0" className="appearance-none focus:outline-none bg-[#151823] text-lg w-3/4" />
-          <select name="" id="" className="focus:outline-none font-medium p-1 rounded-[0.5rem] bg-[#1a1d29]  text-base w-1/4">
+        <div className="flex justify-between p-2 items-center bg-[#121212] border border-zinc-800 rounded-2xl   ">
+          <input type="number" name="" id="" placeholder="0" className="appearance-none focus:outline-none bg-[#121212] text-lg w-3/4" />
+          <select name="" id="" className="focus:outline-none font-medium p-1 rounded-[0.5rem] bg-[#1c1c1c]  text-base w-1/4">
             <option value="">ARS</option>
             <option value="">USD</option>
             <option value="">BTC</option>
@@ -32,9 +32,9 @@ export default function BuySell() {
 
       <div className="pb-5">
         <p className="text-xl text-teal-400 font-medium">Obtienes</p>
-        <div className="flex justify-between p-2 items-center bg-[#151823] border border-zinc-800 rounded-2xl   ">
-          <input type="number" name="" id="" placeholder="0" className="appearance-none focus:outline-none bg-[#151823] text-lg w-3/4" />
-          <select name="" id="" className="focus:outline-none font-medium p-1 rounded-[0.5rem] bg-[#1a1d29]  text-base w-1/4">
+        <div className="flex justify-between p-2 items-center bg-[#121212] border border-zinc-800 rounded-2xl   ">
+          <input type="number" name="" id="" placeholder="0" className="appearance-none focus:outline-none bg-[#121212] text-lg w-3/4" />
+          <select name="" id="" className="focus:outline-none font-medium p-1 rounded-[0.5rem] bg-[#1c1c1c]  text-base w-1/4">
             <option value="">ARS</option>
             <option value="">USD</option>
             <option value="">BTC</option>
