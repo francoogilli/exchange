@@ -5,8 +5,8 @@ export default function BuySell() {
     return (
         <div className=" col-span-4 p-6  bg-[#121212]  rounded-2xl ">
       <div className="flex pb-5 justify-center gap-x-20">
-      <p className={`text-2xl font-medium cursor-pointer ${selectedOption === 'buy' ? 'text-blue-600' : 'text-gray-500'}`} onClick={() => setSelectedOption('buy')}>Buy</p>
-      <p className={`text-2xl font-medium cursor-pointer ${selectedOption === 'sell' ? 'text-blue-600' : 'text-gray-500'}`} onClick={() => setSelectedOption('sell')}>Sell</p>
+      <p className={`text-xl font-medium cursor-pointer ${selectedOption === 'buy' ? 'text-blue-600' : 'text-gray-500'}`} onClick={() => setSelectedOption('buy')}>Comprar</p>
+      <p className={`text-xl font-medium cursor-pointer ${selectedOption === 'sell' ? 'text-blue-600' : 'text-gray-500'}`} onClick={() => setSelectedOption('sell')}>Vender</p>
       </div>
       <div className="flex justify-between">
         <div className={`h-[2px] w-full ${selectedOption === 'buy' ? 'bg-blue-600' : 'bg-gray-500'}`}></div>
