@@ -40,7 +40,9 @@ export default function History() {
                 </td>
                 <td className="px-6 py-4">{item.price}</td>
                 <td className="px-6 py-4">{item.amount}</td>
-                <td className="px-6 py-4">{item.action}</td>
+                <td className={`px-6 py-4 font-normal ${item.action === 'Buy' ? ' text-green-500' : 'text-red-500'}`}>
+                  {item.action}
+                </td>
                 <td className="px-6 py-4">{item.date}</td>
               </tr>
             ))}
