@@ -6,7 +6,7 @@ export const historyData = [
     amount: 19,
     action: "Buy",
     date: "12/08/2022",
-    icon: "logos:bitcoin",
+    icon: "/coins/btc.svg",
   },
   {
     currency: "Bitcoin",
@@ -14,7 +14,7 @@ export const historyData = [
     amount: 17.83,
     action: "Sell",
     date: "12/08/2022",
-    icon: "logos:bitcoin",
+    icon: "/coins/btc.svg",
   },
   {
     currency: "Ethereum",
@@ -22,6 +22,6 @@ export const historyData = [
     amount: 88,
     action: "Buy",
     date: "12/08/2022",
-    icon: "logos:ethereum",
+    icon: "/coins/eth.svg",
   },
 ];

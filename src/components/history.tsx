@@ -1,5 +1,6 @@
-import { Icon } from "@iconify/react";
+
 import { historyData } from "../data";
+import Image from "next/image";
 
 export default function History() {
   return (
@@ -33,12 +34,10 @@ export default function History() {
                   index % 2 === 0 ? "bg-[#171822]" : "bg-[#171822]"
                 } dark:border-gray-700`}
               >
-                <th
-                  scope="row"
-                  className="px-6 flex items-center  gap-x-2  py-4 font-medium  "
-                >
-                  <Icon icon={item.icon} className="text-xl" />{item.currency}
-                </th>
+                <td className="px-6 py-4 flex items-center">
+                  <Image src={item.icon} className="mr-2" width={24} height={24} alt=""/>
+                  <span className="font-normal">{item.currency}</span>
+                </td>
                 <td className="px-6 py-4">{item.price}</td>
                 <td className="px-6 py-4">{item.amount}</td>
                 <td className="px-6 py-4">{item.action}</td>
