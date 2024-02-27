@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react";
 
 export default function BuySell() {
     return (
-        <div className="border-2 col-span-5 p-6  bg-[#151823] border-zinc-800 rounded-2xl ">
+        <div className="border-2 col-span-4 p-6  bg-[#151823] border-zinc-800 rounded-2xl ">
       <div className="flex pb-2 justify-between">
         <h2 className="text-2xl text-zinc-200 font-normal">Exchange</h2>
         <Icon icon="uil:exchange-alt" className="text-green-400 text-3xl"/>
