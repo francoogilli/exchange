@@ -7,9 +7,9 @@ export default function BuySell() {
   return (
     <div className="col-span-4 p-6 bg-[#121212] rounded-2xl">
       <div className="flex justify-center">
-        <div className="bg-black rounded-xl flex justify-center gap-x-2 p-1.5">
-          <p className={`text-xl font-medium rounded-md py-1 px-3 cursor-pointer ${selectedOption === 'buy' ? 'bg-[#121212]' : 'text-gray-600'}`} onClick={() => setSelectedOption('buy')}>Comprar</p>
-          <p className={`text-xl font-medium rounded-md py-1 px-3 cursor-pointer ${selectedOption === 'sell' ? 'bg-[#121212]' : 'text-gray-600'}`} onClick={() => setSelectedOption('sell')}>Vender</p>
+        <div className="bg-black rounded-2xl flex justify-center gap-x-2 p-1.5">
+          <p className={`text-xl font-medium rounded-[.625rem] py-1 px-3 cursor-pointer ${selectedOption === 'buy' ? 'bg-[#121212]' : 'text-gray-600'}`} onClick={() => setSelectedOption('buy')}>Comprar</p>
+          <p className={`text-xl font-medium rounded-[.625rem] py-1 px-3 cursor-pointer ${selectedOption === 'sell' ? 'bg-[#121212]' : 'text-gray-600'}`} onClick={() => setSelectedOption('sell')}>Vender</p>
         </div>
       </div>
 
