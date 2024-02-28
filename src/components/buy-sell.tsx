@@ -4,7 +4,7 @@ export default function BuySell() {
   const [selectedOption, setSelectedOption] = useState('buy');
     return (
         <div className=" col-span-4 p-6  bg-[#121212]  rounded-2xl ">
-      <div className="flex pb-5 justify-center gap-x-20">
+      <div className="flex pb-2 justify-center gap-x-20">
       <p className={`text-xl font-medium cursor-pointer ${selectedOption === 'buy' ? 'text-blue-600' : 'text-gray-500'}`} onClick={() => setSelectedOption('buy')}>Comprar</p>
       <p className={`text-xl font-medium cursor-pointer ${selectedOption === 'sell' ? 'text-blue-600' : 'text-gray-500'}`} onClick={() => setSelectedOption('sell')}>Vender</p>
       </div>
