@@ -42,7 +42,7 @@ export default function BuySell() {
         </div>
       </div>
 
-      <button className="font-medium text-xl px-4 py-5 w-full bg-gradient-to-r from-purple-600 hover:from-purple-600 hover:to-purple-500 transition duration-300  to-purple-400 border border-zinc-800 rounded-2xl">
+      <button className="font-medium text-xl px-3 py-4 w-full bg-gradient-to-r from-purple-600 hover:from-purple-600 hover:to-purple-500 transition duration-300  to-purple-400 border border-zinc-800 rounded-2xl">
       Exchange
       </button>
     </div>
