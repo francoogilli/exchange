@@ -1,8 +1,9 @@
 "use client";
 import React from 'react';
+import { Icon } from '@iconify/react';
 export default function Header() {
   return (
-    <nav className="bg-zinc-950 p-2 ">
+    <nav className="bg-zinc-950 p-3 ">
       <div className='w-9/12 mx-auto'>
       <div className="flex justify-between items-center">
         <div className="flex items-center">
@@ -22,7 +23,9 @@ export default function Header() {
           </svg>
           <span className="text-white font-semibold text-lg">Cripto</span>
         </div>
-        <a href="" className='text-white'>Github</a>
+        <a href="https://github.com/francoogilli/exchange" target='_blank' rel='noreferrer'>
+          <Icon icon="ri:github-fill" className="text-white text-3xl" />
+        </a>
       </div>
       </div>
     </nav>
