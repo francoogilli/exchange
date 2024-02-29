@@ -9,7 +9,7 @@ export default function History() {
       <div className="relative pt-4 rounded-[14px] overflow-x-auto">
       
         <table className="w-full  text-sm  text-left rtl:text-right text-zinc-200">
-          <thead className="text-sm text-[#666873] bg-[#121212]">
+          <thead className="text-sm text-[#848793] bg-[#121212]">
             <tr className="">
               <th scope="col" className="px-6 font-semibold py-3">
                 Divisa
