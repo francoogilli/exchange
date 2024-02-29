@@ -23,7 +23,7 @@ export default function Header() {
           </svg>
           <span className="text-white font-semibold text-lg">Cripto</span>
         </div>
-        <a href="https://github.com/francoogilli/exchange" target='_blank' rel='noreferrer'>
+        <a href="https://github.com/francoogilli/exchange" aria-label='Github Repository' target='_blank' rel='noreferrer'>
           <Icon icon="ri:github-fill" className="text-white text-3xl" />
         </a>
       </div>
