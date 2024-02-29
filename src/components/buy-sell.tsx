@@ -38,7 +38,7 @@ export default function BuySell() {
           </select>
         </div>
       </div>
-      <span className="text-zinc-500 text-base font-semibold">1 BTC = $62,955</span>
+      <span className="text-zinc-400 text-base font-medium">1 BTC = $62,955</span>
 
       <button className="font-medium text-xl px-3 py-4 mt-6 w-full bg-gradient-to-r from-purple-600 hover:from-purple-600 hover:to-purple-500 transition duration-300 to-purple-400 border border-zinc-800 rounded-2xl">
         Exchange
