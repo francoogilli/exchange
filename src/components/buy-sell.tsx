@@ -16,7 +16,7 @@ export default function BuySell() {
       
 
       <div className="pb-2">
-        <p className="text-base pb-1 text-zinc-400 font-medium">Tu pagas</p>
+      <p className="text-base pb-1 text-zinc-400 font-medium">{selectedOption === 'buy' ? 'Tu pagas' : 'Tu vendes'}</p>
         <div className="flex justify-between p-2 items-center bg-black rounded-2xl">
           <input type="number" name="" id="" placeholder="0" className="appearance-none focus:outline-none bg-black text-lg w-3/4" />
           <select name="currency" id="currencyPay" className="focus:outline-none font-medium p-1 rounded-[0.5rem] bg-[#121212]  text-base w-1/4">
