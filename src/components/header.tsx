@@ -25,7 +25,7 @@ export default function Header() {
         </div>
         <a href="https://github.com/francoogilli/exchange" className='relative inline-block' aria-label='Github Repository' target='_blank' rel='noreferrer'>
             <Icon icon="simple-icons:github" className='mb-0 text-transparent size-[25px] text-zinc-950 dark:text-white' width={30} height={30} />
-            <Icon icon="radix-icons:star-filled" className="absolute left-4 mt-9 bottom-[15px] mr-2 text-yellow-400 dark:text-yellow-400 animate-bounce transition-all" width="15" height="15" />
+            <Icon icon="radix-icons:star-filled" className="absolute left-4 mt-9 bottom-[15px] mr-2 text-yellow-400 hover:text-yellow-300 dark:text-yellow-400 animate-bounce transition-all" width="15" height="15" />
         </a>
       </div>
       </div>
