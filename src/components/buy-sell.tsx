@@ -15,29 +15,31 @@ export default function BuySell() {
 
       
 
-      <div className="pb-2">
-      <p className="text-base pb-1 text-zinc-400 font-medium">{selectedOption === 'buy' ? 'Tu pagas' : 'Tu vendes'}</p>
-        <div className="flex justify-between p-2 items-center bg-black rounded-2xl">
-          <input type="number" name="" id="" placeholder="0" className="appearance-none focus:outline-none bg-black text-lg w-3/4" />
-          <select name="currency" id="currencyPay" className="focus:outline-none font-medium p-1 rounded-[0.5rem] bg-[#121212]  text-base w-1/4">
-            <option value="ARS">ARS</option>
-            <option value="USD">USD</option>
-            <option value="BTC">BTC</option>
-          </select>
-        </div>
-      </div>
+      <div className="pb-2 space-y-1">
+  <label htmlFor="currencyPay" className="text-base pb-1 text-zinc-400 font-medium">{selectedOption === 'buy' ? 'Tu pagas' : 'Tu vendes'}</label>
+  <div className="flex justify-between p-2 items-center bg-black rounded-2xl">
+    <input type="number" name="" id="" placeholder="0" className="appearance-none focus:outline-none bg-black text-lg w-3/4" />
+    <select name="currency" id="currencyPay" className="focus:outline-none font-medium p-1 rounded-[0.5rem] bg-[#121212]  text-base w-1/4">
+      <option value="ARS">ARS</option>
+      <option value="USD">USD</option>
+      <option value="BTC">BTC</option>
+    </select>
+  </div>
+</div>
+
       <span className="flex justify-center items-center"><Icon icon="uil:exchange-alt" className="rotate-90" width={28}/></span>
-      <div className="pb-3">
-        <p className="text-base pb-1 text-zinc-400 font-medium">Tu obtienes</p>
-        <div className="flex justify-between p-2 items-center bg-black rounded-2xl">
-          <input type="number" name="" id="" placeholder="0" className="appearance-none focus:outline-none bg-black text-lg w-3/4" />
-          <select name="currency" id="currencyGet" className="focus:outline-none font-medium p-1 rounded-[0.5rem] bg-[#121212]  text-base w-1/4">
-            <option value="ARS">ARS</option>
-            <option value="USD">USD</option>
-            <option value="BTC">BTC</option>
-          </select>
-        </div>
-      </div>
+      <div className="pb-3 space-y-1">
+  <label htmlFor="currencyGet" className="text-base pb-1 text-zinc-400 font-medium">Tu obtienes</label>
+  <div className="flex justify-between p-2 items-center bg-black rounded-2xl">
+    <input type="number" name="" id="" placeholder="0" className="appearance-none focus:outline-none bg-black text-lg w-3/4" />
+    <select name="currency" id="currencyGet" className="focus:outline-none font-medium p-1 rounded-[0.5rem] bg-[#121212]  text-base w-1/4">
+      <option value="ARS">ARS</option>
+      <option value="USD">USD</option>
+      <option value="BTC">BTC</option>
+    </select>
+  </div>
+</div>
+
       <span className="text-zinc-400 text-base font-medium">1 BTC = $62,955</span>
 
       <button className="font-medium text-xl px-3 py-4 mt-6 w-full bg-gradient-to-r from-purple-600 hover:from-purple-600 hover:to-purple-500 transition duration-300 to-purple-400 border border-zinc-800 rounded-2xl">
